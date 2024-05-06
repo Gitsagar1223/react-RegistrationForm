@@ -43,7 +43,7 @@ const Registration = () => {
 
           <label>email: </label>
           <input
-            type="text"
+            type="email"
             placeholder="domain@email.com"
             value={input.email}
             onChange={handleChange}
@@ -52,7 +52,7 @@ const Registration = () => {
 
           <label>Password: </label>
           <input
-            type="text"
+            type="Password"
             placeholder="******"
             value={input.password}
             onChange={handleChange}
